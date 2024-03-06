@@ -2,13 +2,11 @@ document.addEventListener("DOMContentLoaded", myLoadFunction);
 
 
 function myLoadFunction(){
-     var element = document.getElementById("button");
-     //alert(element.value);
-     element.addEventListener("click", buttonClicked);
-
+     var element = document.getElementById("myInput");
+     element.addEventListener("keyup", updateText);
 }
 
-function buttonClicked(){
+function updateText(){
      var input = document.getElementById("myInput");
      
      var element = document.getElementById("section");
