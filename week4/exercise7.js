@@ -9,6 +9,8 @@ function myLoadFunction(){
 }
 
 function buttonClicked(){
-     var element = document.getElementById("myInput");
-     alert(element.value);
+     var input = document.getElementById("myInput");
+     
+     var element = document.getElementById("section");
+     element.firstChild.nodeValue = input.value;
 }
