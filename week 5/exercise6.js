@@ -9,7 +9,7 @@ function myLoadFunction(){
 }
 
 function clickFunction(){
-    setInterval(reduceOpacity, 1000);
+    setInterval(reduceOpacity, 10);
     
 }
 
