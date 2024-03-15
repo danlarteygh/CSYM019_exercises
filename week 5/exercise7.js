@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", myLoadFunction);
 
 function myLoadFunction(){
-    document.addEventListener("keydown", moveLeft);
+    document.addEventListener("click", moveLeft);
 }
 
 function moveLeft(){
