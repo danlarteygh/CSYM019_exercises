@@ -16,7 +16,7 @@ function myKeyDown(event) {
     else if (key == 39) { timer = setInterval(rightKey, 10); }
     else if (key == 38) { timer = setInterval(upKey, 10); }
     else if (key == 40) { timer = setInterval(downKey, 10); }
-
+    else if (key == 32) { timer = setInterval(spacebar, 10); }
 }
 
 function leftKey() {
@@ -43,3 +43,4 @@ function downKey() {
     var positionTop = element.offsetTop;
     element.style.top = parseInt(positionTop) + 1 + "px";
 }
+function spacebar() { clearInterval(timer); }
