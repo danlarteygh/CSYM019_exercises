@@ -21,6 +21,7 @@ function myLoadEvent() {
                 borderWidth: 1
             }]
         },
+        /*
         options: {
             scales: {
                 y: {
@@ -28,5 +29,29 @@ function myLoadEvent() {
                 }
             }
         }
+        */
+        options: {
+
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Colors' // Label for the x-axis
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: '# of Votes' // Label for the y-axis
+                    },
+                    ticks: {
+                        beginAtZero: true // Start y-axis from 0
+                    }
+                }
+            },
+
+        }
+
     });
+
 }
