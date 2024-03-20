@@ -10,6 +10,14 @@ function myLoadEvent() {
             datasets: [{
                 label: '# of Votes',
                 data: [12, 19, 3, 5, 2, 3],
+                backgroundColor: [
+                    'red',
+                    'blue',
+                    'yellow',
+                    'green',
+                    'purple',
+                    'orange'
+                ],
                 borderWidth: 1
             }]
         },
