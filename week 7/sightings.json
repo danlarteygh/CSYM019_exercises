@@ -1,17 +1,56 @@
 {
     "sightings": [
         {
-            "id": "",
-            "animal": "",
-            "number": 0,
-            "location": "",
-            "date": "",
-            "time": "",
+            "id": 1,
+            "animal": "Pine Martin",
+            "number": 4,
+            "location": "Marshall Woods, Reneham",
+            "date": "2015-09-24",
+            "time": "09:30:00",
+            "observations": "four pine martins. 1 adult. 3 juveniles. in wooded area. adult appeared to be mother. foraging for food.",
             "observer": {
-                "name": "",
-                "email": ""
-            },
-            "observations": ""
+                "name": "Gregory Dimitradis",
+                "email": "gdim@yahoo.com"
+            }
+        },
+        {
+            "id": 2,
+            "animal": "Red Fox",
+            "number": 2,
+            "location": "Redwood National Park, California",
+            "date": "2018-06-12",
+            "time": "17:45:00",
+            "observations": "Two red foxes spotted near a stream. Both appeared healthy and well-fed.",
+            "observer": {
+                "name": "Emily Johnson",
+                "email": "emily.j@yahoo.com"
+            }
+        },
+        {
+            "id": 3,
+            "animal": "Gray Wolf",
+            "number": 1,
+            "location": "Yellowstone National Park, Wyoming",
+            "date": "2019-10-08",
+            "time": "08:15:00",
+            "observations": "A single gray wolf observed roaming the meadow. Looked majestic and solitary.",
+            "observer": {
+                "name": "Michael Smith",
+                "email": "mike.smith@gmail.com"
+            }
+        },
+        {
+            "id": 4,
+            "animal": "Black Bear",
+            "number": 3,
+            "location": "Adirondack Mountains, New York",
+            "date": "2020-07-29",
+            "time": "12:00:00",
+            "observations": "Three black bears seen near a berry patch. Two cubs accompanied by an adult.",
+            "observer": {
+                "name": "Sarah Thompson",
+                "email": "sarah.t@gmail.com"
+            }
         }
     ]
 }
