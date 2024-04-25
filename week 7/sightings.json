@@ -1,0 +1,17 @@
+{
+    "sightings": [
+        {
+            "id": "",
+            "animal": "",
+            "number": 0,
+            "location": "",
+            "date": "",
+            "time": "",
+            "observer": {
+                "name": "",
+                "email": ""
+            },
+            "observations": ""
+        }
+    ]
+}
